@@ -10,6 +10,8 @@ const numberList = document.querySelector("#numberList");
 addButton.addEventListener("click", () => {
   // Generate a random number between 0 and 99
   const randomNumber = Math.floor(Math.random() * 100);
+  numberList.innerHTML = "";
+  // numberList.innerHTML = "";：这行代码会清空 #numberList 的所有内容。这样，页面上的所有 <li> 元素都会被删除。
 
   // Create a new <li> and set its innerHTML
   const listItem = document.createElement("li");

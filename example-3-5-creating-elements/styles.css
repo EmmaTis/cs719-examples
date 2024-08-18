@@ -6,3 +6,10 @@ body {
   align-items: center;
   gap: 20px;
 }
+
+/* 在 flexbox 布局中，justify-content 和 align-items 的默认值都是 flex-start。
+
+	•	justify-content: flex-start;: 这是 justify-content 的默认值。它将子元素在主轴方向（通常是水平方向）上从容器的起始位置开始对齐（通常是左对齐）。
+	•	align-items: flex-start;: 这是 align-items 的默认值。它将子元素在交叉轴方向（通常是垂直方向）上从容器的起始位置开始对齐（通常是顶部对齐）。
+
+所以，如果你不显式设置 justify-content 和 align-items，子元素将会默认在容器的左上角对齐。 */

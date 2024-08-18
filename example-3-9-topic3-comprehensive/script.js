@@ -106,7 +106,12 @@ function addPersonRow(person, tbody) {
   row.appendChild(createTextCell(person.firstName));
   row.appendChild(createTextCell(person.lastName));
   row.appendChild(createTextCell(person.emailAddress));
-
+  // const emailCell = document.createElement("td");
+  // const emailLink = document.createElement("a");
+  // emailLink.href = `mailto:${person.emailAddress}`;
+  // emailLink.textContent = person.emailAddress;
+  // emailCell.appendChild(emailLink);
+  // row.appendChild(emailCell);
   // Create a td containing an ul, which will hold our phone numbers. Append to the tr above.
   const phoneCell = document.createElement("td");
   row.appendChild(phoneCell);
